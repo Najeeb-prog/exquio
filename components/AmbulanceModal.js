@@ -36,7 +36,7 @@ const EmergencyButton = ({ onCall, isLoading }) => {
         Animated.sequence([
           Animated.timing(shimmerAnim, {
             toValue: 1,
-            duration: 1500,
+            duration: 1501,
             useNativeDriver: true,
           }),
           Animated.timing(shimmerAnim, {
